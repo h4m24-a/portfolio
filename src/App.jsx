@@ -33,6 +33,27 @@ const IconCap = ({ size = 16, className = "" }) => (
 // ---------------------------------------------------------------------------
 const PROJECTS = [
   {
+    title: "Messaging App",
+    year: "2026",
+    swatch: "#aec997",
+    blurb:
+      "A messaging application built with Node.js, Express.js, React and Tailwind CSS, designed to provide a responsive, and user-friendly experience.",
+    features: [
+      "Built a full-stack messaging application with secure authentication and authorization using JWT, Passport.js, and bcrypt.",
+
+      "RESTful API endpoints with Express.js to support private messaging and user account management.",
+
+      "Relational PostgreSQL database using Prisma ORM to model users, profiles, conversations, and messages.",
+
+      "Responsive single-page application with React, Tailwind CSS, React Router, and TanStack Query for client-side routing and server-state management.",
+
+      "Customisable user profiles, allowing users to update profile image and biography.",
+          ],
+    tags: ["Node.js", "Express", "PostgreSQL", "Prisma", "JWT", "Passport.js", "bcrypt", "React", "Vite", "Tailwind", "CSS", "Tanstack query", "React Router"],
+    link: "https://messaging-app-frontend-production.up.railway.app",
+    repo: "https://github.com/h4m24-a/messaging-app-frontend",
+  },
+  {
     title: "Blog API",
     year: "2025",
     swatch: "#EA5457",
@@ -65,27 +86,6 @@ const PROJECTS = [
     repo: "https://github.com/h4m24-a/blog-frontend",
   },
   {
-    title: "Messaging App",
-    year: "2026",
-    swatch: "#aec997",
-    blurb:
-      "A messaging application built with Node.js, Express.js, React and Tailwind CSS, designed to provide a responsive, and user-friendly experience.",
-    features: [
-      "Built a full-stack messaging application with secure authentication and authorization using JWT, Passport.js, and bcrypt.",
-
-      "RESTful API endpoints with Express.js to support private messaging and user account management.",
-
-      "Relational PostgreSQL database using Prisma ORM to model users, profiles, conversations, and messages.",
-
-      "Responsive single-page application with React, Tailwind CSS, React Router, and TanStack Query for client-side routing and server-state management.",
-
-      "Customisable user profiles, allowing users to update profile image and biography.",
-          ],
-    tags: ["Node.js", "Express", "PostgreSQL", "Prisma", "JWT", "Passport.js", "bcrypt", "React", "Vite", "Tailwind", "CSS", "Tanstack query", "React Router"],
-    link: "https://messaging-app-frontend-production.up.railway.app",
-    repo: "https://github.com/h4m24-a/messaging-app-frontend",
-  },
-  {
     title: "Where's Waldo",
     year: "2025",
     swatch: "#d9b67e",
@@ -108,8 +108,8 @@ const PROJECTS = [
   },
   {
     title: "Ecommerce Shopping Cart",
-    year: "2025",
-    swatch: "#d9b67e",
+    year: "2024",
+    swatch: "#c274d6",
     blurb:
       "An E-commerce site focusing more on building a functional shopping cart using React & Tailwind.",
       features: [
